@@ -1,0 +1,13 @@
+#projectmodal-bootstrap-overrides  img  {
+    display: block;
+    margin: auto;
+}
+
+#projectmodal-bootstrap-overrides  .modal-header {
+    background-color: RGB(33, 37, 41);
+    border-bottom-width: 0px;;
+}
+
+#projectmodal-bootstrap-overrides  .modal-body{
+    background-color: black;
+}

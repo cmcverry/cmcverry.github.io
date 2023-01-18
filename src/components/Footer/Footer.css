@@ -1,0 +1,26 @@
+#footer{
+    width: 100%;
+    background-color: RGB(30, 30, 30);
+    height: 150px;
+}
+
+#footer-content{
+    position: relative;
+    top: 70px;
+    height: 150px;
+    background-color: black;
+    font-family: monospace;
+    color: orange;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 35px;
+}
+
+#footer-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-flexbox > a {
+    padding-left:10px;
+}

@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home/Home';
+import './assets/css/fonts.css'
+import NavigationBar from './components/Navbar/Navbar';
+import ProjectsSection from './components/Projects/ProjectsSection';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+import logo from './logo.svg';
+import Delay from './Delay';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="landing-screen">
+        <div id="landing-screen-image">
+          <img
+                  src={logo}
+                  width="75rem"
+                  height="75rem"
+                  alt="Portfolio web site logo landing animation"
+          />
+        </div>
+      </div>
+      <Delay waitBeforeShow={2800}>
+        <div className="App">
+          <NavigationBar/>
+          <Home/>
+          <About/>
+          <ProjectsSection/>
+          <Footer/>
+        </div>
+      </Delay>
     </div>
   );
 }

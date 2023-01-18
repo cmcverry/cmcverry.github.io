@@ -1,0 +1,56 @@
+#about {
+    background-image: url("../../assets/aboutBackground6.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    max-width: 100%;
+    min-height: 50vh;
+    color: white;
+}
+
+#about > h1 {
+    font-family: monospace;
+    font-size: 2.75rem;
+    letter-spacing: 3px;
+    margin-top:0;
+    color: orange;
+    text-shadow: 6px 6px 6px black,
+    6px 6px 6px black,
+    6px 6px 6px black,
+    6px 6px 6px black;
+   padding-top: 75px;
+   margin-bottom: 75px;
+   text-align: center;
+}
+
+#about-bootstrap-overrides{
+    padding-bottom:100px;
+}
+
+#about-bootstrap-overrides .row{
+    color: black;
+}
+
+#about-bootstrap-overrides .card{
+    border-color: black;
+    border-width: 2px;
+    color: white;
+    background-color: RGB(33, 37, 41);
+    margin-bottom: 2rem;
+    text-align: left;
+    box-shadow: 6px 6px #000;
+}
+
+#about-bootstrap-overrides .card:hover{
+    border-color: orange;
+}
+
+#about-bootstrap-overrides .card h5{
+    text-decoration: underline;
+}
+
+#about-bootstrap-overrides .card-header{
+    background-color: black;
+    color: orange;
+}
+

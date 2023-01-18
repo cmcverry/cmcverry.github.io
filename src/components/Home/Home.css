@@ -1,0 +1,134 @@
+
+#home {
+    background-image: url("../../assets/homeBackgroundBench.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#home-content-container {
+  position: relative;
+  top: 15vh;
+}
+
+#home-bootstrap-overrides.card {
+
+  background: black;
+  opacity: 0.85;
+
+  border-color: orange;
+  border-width: 5px;;
+  border-radius: 3%;
+  margin: auto;
+
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.4em; 
+  font-weight: 900;
+  text-align: left;
+}
+
+#home-bootstrap-overrides span{
+  color: orange;
+}
+
+#home-bootstrap-overrides .typing-text-animation {
+  text-align: left;
+  font-family: monospace;
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#fff 5px,#0000 0) 10px 0,
+    linear-gradient(orange 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .75s infinite steps(1),   
+    t calc(var(--n)*.05s) steps(var(--n)) forwards;
+}
+@keyframes t{
+  from {background-size:0 200%}
+}
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}
+
+@media screen and (max-width: 1000px){
+  #home-bootstrap-overrides.card{
+      font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 376px){
+  #home-bootstrap-overrides.card{
+      font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 281px){
+  #home-bootstrap-overrides.card{
+      font-size: .95em;
+  }
+}
+
+#home-bootstrap-overrides p {
+  color: white;
+}
+
+#home-content-container a {
+  position: relative;
+  top: 2vh;
+  right: 30vw;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1000px){
+  #home-content-container a {
+      right: 0;
+  }
+}
+
+#social-icon-container a > img {
+  border-radius: 50%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#social-icon-container img:hover{
+  opacity: 0.9;
+  border-width: 4px;
+}
+
+/* #me-image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#me-image-container img{
+  margin-top: 25px;
+  margin-right: 12vw;
+  border-radius: 33%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  filter: hue-rotate(5deg);
+}
+
+@media screen and (max-width: 1000px){
+  #me-image-container {
+      justify-content: center;
+  }
+  #me-image-container img{
+      width: 180px;
+      margin-right: 0;
+  }
+} */
+
+
+

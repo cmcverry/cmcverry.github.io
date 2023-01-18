@@ -1,0 +1,51 @@
+.project-container {
+    margin: 0 120px 50px 120px;
+    width: 33%;
+}
+
+.demo-link{
+    color: orange;
+}
+
+#projectText > h1 {
+    color: black;
+    text-shadow: 1px 1px 1px #fff,
+    1px 1px 1px #fff,
+    1px 1px 1px #fff,
+    1px 1px 1px #fff;
+   text-decoration: underline;
+}
+
+.project-image{
+    width: 25%;
+    height: auto;
+}
+
+#project-bootstrap-overrides.card{
+    width: 40%;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-color: RGB(33, 37, 41);
+}
+
+#project-bootstrap-overrides.card:hover {
+    border-color: RGB(247, 222, 210);
+}
+
+#project-bootstrap-overrides > .card-header{
+    background-color: RGB(33, 37, 41);
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    #project-bootstrap-overrides.card {
+        width: 95%;
+    }
+}
+
+h6 {
+    color: orange;
+    text-decoration: underline;
+}
