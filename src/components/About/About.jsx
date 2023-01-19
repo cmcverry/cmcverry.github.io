@@ -11,7 +11,7 @@ function About(props) {
             <h1>About Me</h1>
             <Container id="about-bootstrap-overrides">
                 <Row>
-                    <Col md={{span: 5, offset: 1}}>                
+                    <Col lg={{span:10, offset: 1}}>                
                         <Card id="" >
                             <Card.Header><h2>Background</h2></Card.Header>
                             <Card.Body>
@@ -29,11 +29,10 @@ function About(props) {
                             </Card.Body>
                         </Card>   
                     </Col>
-                    <Col md={{ span: 5, offset: 0 }}>                        
+                    <Col lg={{ span: 5, offset: 1 }}>                        
                         <Card id="" >
                             <Card.Header><h2>Interests</h2></Card.Header>
                             <Card.Body>
-                                
                                     <h4>Tech:</h4>
                                     <ul>
                                         <li>Software Engineering</li>
@@ -53,9 +52,7 @@ function About(props) {
                             </Card.Body>
                         </Card> 
                     </Col>
-                </Row>
-                <Row>
-                    <Col md={{ span: 5, offset: 1 }}>
+                    <Col lg={{ span: 5, offset:0 }}>
                         <Card id="" >
                             <Card.Header><h2>Education</h2></Card.Header>
                             <Card.Body>
@@ -78,7 +75,9 @@ function About(props) {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={{ span: 5, offset: 0 }}>
+                </Row>
+                <Row>
+                    <Col lg={{ span: 10, offset: 1 }}>
                         <Card id="" >
                             <Card.Header><h2>Technical</h2></Card.Header>
                             <Card.Body>

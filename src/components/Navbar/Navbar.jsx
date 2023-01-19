@@ -31,7 +31,7 @@ function NavigationBar(props) {
 
 
     return (
-        <Navbar id="nav-bootstrap-override-zindex" fixed="top" bg="dark" variant="dark">
+        <Navbar fixed="top" bg="dark" variant="dark">
             <Navbar.Brand href="#home">
             <img
               src={logo}
@@ -41,7 +41,7 @@ function NavigationBar(props) {
               alt="Portfolio web site logo"
             />
              </Navbar.Brand>
-            <Container>
+            <Container id="nav-bootstrap-overrides">
                 <Nav id="nav-bootstrap-overrides" defaultActiveKey="#home" variant="tabs">
                     <Nav.Link id="nav-bootstrap-overrides" className="nav-home" href="#home">Home</Nav.Link>
                     <Nav.Link id="nav-bootstrap-overrides" className="nav-about" href="#about">About</Nav.Link>

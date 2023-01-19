@@ -2,8 +2,8 @@
     margin: auto;
     width: 90%;
     background-color: RGB(235, 96, 17);
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
 }
 
 #projects-container {
@@ -26,7 +26,7 @@
     background-position: center center;
     background-repeat: repeat;
     max-width: 100%;
-    min-height: 50vh;
+    /* min-height: 50vh; */
 }
 
 #projects-section-header{
@@ -38,18 +38,15 @@
     border-width:10px;
     border-color: RGB(235, 96, 17);
     margin-bottom: 50px;
-    text-decoration: underline;
-    text-decoration-color: RGB(235, 96, 17);
-    text-decoration-line: overline;
 }
 
 #projects-section-header > h1{
     font-family: monospace;
     font-size: 2.75rem;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     color: white;
     font-weight: 700;
-    padding-top: 75px;
-    padding-bottom:25px;
+    padding-top: 25px;
+    padding-bottom:30px;
     text-align: center;
 }

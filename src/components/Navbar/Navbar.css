@@ -15,7 +15,7 @@ a#nav-bootstrap-overrides {
 }
 
 .navbar-brand {
-    padding: 2%;
+    padding-left: 10px;
     animation: rotation 20s infinite linear;
 }
 
@@ -29,8 +29,12 @@ a#nav-bootstrap-overrides {
     }
   }
 
+  #nav-bootstrap-overrides.container {
+    padding: 0;
+  }
 
-#nav-bootstrap-override-zindex {
+
+/* #nav-bootstrap-override-zindex {
     z-index: 1;
-}
+} */
 
