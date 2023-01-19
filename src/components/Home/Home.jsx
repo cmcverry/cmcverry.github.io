@@ -14,10 +14,10 @@ function Home(props) {
             <div id="home-content-container">
                 <Card id="home-bootstrap-overrides" style={{ width: "75vw" }}>
                     <Card.Body>
-                        <p>me@portfolio_web_site:~$<span id="mock-program-execution"> ./introduction</span></p>
+                        <p>me@personal_web_site:~$<span id="mock-program-execution"> ./introduction</span></p>
                         <span className="typing-text-animation" style={cssVariable}> Hello, my name is Christian McVerry. 
                             I am a recent Computer Science graduate, and aspiring professional software developer.
-                            This is my portfolio web site where I share information about myself and software projects
+                            This is my personal web site where I share information about myself and software projects
                             that I have worked on.
                         </span>
                     </Card.Body>

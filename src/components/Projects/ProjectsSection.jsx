@@ -19,7 +19,7 @@ function ProjectsSection(props) {
         <div className="section" id="projects">
             <div id="projects-section-container">     
                 <div id="projects-section-header">
-                    <h1>  My Projects  </h1>
+                    <h1>  Portfolio  </h1>
                 </div>
                 <ul id="projects-container">
                     {projectList}

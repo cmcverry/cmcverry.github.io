@@ -45,7 +45,7 @@ function NavigationBar(props) {
                 <Nav id="nav-bootstrap-overrides" defaultActiveKey="#home" variant="tabs">
                     <Nav.Link id="nav-bootstrap-overrides" className="nav-home" href="#home">Home</Nav.Link>
                     <Nav.Link id="nav-bootstrap-overrides" className="nav-about" href="#about">About</Nav.Link>
-                    <Nav.Link id="nav-bootstrap-overrides" className="nav-projects" href="#projects">Projects</Nav.Link>
+                    <Nav.Link id="nav-bootstrap-overrides" className="nav-projects" href="#projects">Portfolio</Nav.Link>
                     <Nav.Link id="nav-bootstrap-overrides" className="nav-footer" href="#footer">Contact</Nav.Link>
                 </Nav>
             </Container>

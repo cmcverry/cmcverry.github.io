@@ -24,7 +24,7 @@ function About(props) {
                                         Unrelated to the tech side of me, I also have heaps of gardening experience, which is another interest of mine. Over the years I have spent time
                                         volunteering in various public gardens and even worked as a professional rose gardener for about three years. I have worked as a private contractor as well as an employee at 
                                         the Elizabeth Park Conservancy where I was a steward to the oldest and the third largest public rose garden in the United States. My time working as a professional
-                                        gardener further developed my leadership, qualitative, and soft skills. While in recent years software development has been my primary endeavor, I do spend time gardening as hobby.
+                                        gardener further developed my leadership, qualitative, and soft skills. While in recent years software development has been my primary endeavor, I do spend time gardening as a hobby.
                                 </Card.Text>
                             </Card.Body>
                         </Card>   
@@ -81,14 +81,14 @@ function About(props) {
                         <Card id="" >
                             <Card.Header><h2>Technical</h2></Card.Header>
                             <Card.Body>
-                                    <p style={{color: 'orange', fontStyle: 'italic'}} >( Note: this list conttains what I use frequently or have the most exposure with using. Not necessarily 
+                                    <p style={{color: 'orange', fontStyle: 'italic'}} >( Note: this list contains what I use frequently or have the most exposure with. Not necessarily 
                                     full mastery. )</p>
                                     <h5>Programming Languages:</h5>
                                     <p>Python, JavaScript, C/C++, SQL, HTML/CSS</p>
                                     <h5>Libraries / Frameworks / APIs:</h5>
                                     <p>ReactJS, NodeJS, ExpressJS, React Native, Flask, OpenMP, OpenCL</p>
                                     <h5>Environments / Tools / Platforms:</h5>
-                                    <p>Unix/Linux, Git, Google Cloud Platform, Microsoft Azure, Firebase, Figma, Asana, VS Code, IntelliJ IDEA, CLion</p>
+                                    <p>Unix/Linux, Git, Google Cloud Platform, Microsoft Azure, Firebase, Figma, Asana, Visual Studio, VS Code, CLion</p>
                                     <h5>Conceptual:</h5>
                                     <p>Object-Oriented Programming, Parallel Proramming, RESTful API, Microservice Architecture, Agile Concepts & Practices</p>
                             </Card.Body>
