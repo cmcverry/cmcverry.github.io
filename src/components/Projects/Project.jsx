@@ -48,9 +48,6 @@ function Project(props){
                     data = {data}
                 />
             </Card>   
-
-
-
         );
 }
 

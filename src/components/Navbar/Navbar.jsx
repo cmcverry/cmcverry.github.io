@@ -16,8 +16,8 @@ function NavigationBar(props) {
                 const sectionID = section.attributes.id.value;
                 const elements = document.getElementsByClassName("nav-link");
                 for (let i = 0; i < elements.length; i++){
-                    // console.log(elements[i].classList.values, t);
-                    if (!elements[i].classList.contains("nav-" + sectionID)){
+                    
+                    if (elements[i].id !== ("nav-" + sectionID)){
                         elements[i].classList.remove("active");
                     }
                     else{
@@ -31,8 +31,8 @@ function NavigationBar(props) {
 
 
     return (
-        <Navbar fixed="top" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">
+        <Navbar id="nav-bootstrap-overrides" fixed="top" bg="dark" variant="dark">
+            <Navbar.Brand  href="#home">
             <img
               src={logo}
               width="45"
@@ -41,12 +41,12 @@ function NavigationBar(props) {
               alt="Portfolio website logo"
             />
              </Navbar.Brand>
-            <Container id="nav-bootstrap-overrides">
-                <Nav id="nav-bootstrap-overrides" defaultActiveKey="#home" variant="tabs">
-                    <Nav.Link id="nav-bootstrap-overrides" className="nav-home" href="#home">Home</Nav.Link>
-                    <Nav.Link id="nav-bootstrap-overrides" className="nav-about" href="#about">About</Nav.Link>
-                    <Nav.Link id="nav-bootstrap-overrides" className="nav-projects" href="#projects">Portfolio</Nav.Link>
-                    <Nav.Link id="nav-bootstrap-overrides" className="nav-footer" href="#footer">Contact</Nav.Link>
+            <Container>
+                <Nav defaultActiveKey="#home" variant="tabs">
+                    <Nav.Link id="nav-home"  href="#home">Home</Nav.Link>
+                    <Nav.Link id="nav-about"  href="#about">About</Nav.Link>
+                    <Nav.Link id="nav-projects"  href="#projects">Portfolio</Nav.Link>
+                    <Nav.Link id="nav-footer"  href="#footer">Contact</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

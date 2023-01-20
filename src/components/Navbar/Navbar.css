@@ -1,21 +1,20 @@
-a#nav-bootstrap-overrides {
-    color: orange;
-    font-weight: 750;
-    border-bottom-left-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
+
+#nav-bootstrap-overrides .navbar-nav.nav-tabs .nav-link {
+  color: orange;
+  font-weight: 750;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }
 
-#nav-bootstrap-overrides.active {
+#nav-bootstrap-overrides .navbar-nav.nav-tabs .nav-link.active {
     color:black;
-    font-weight: 750;
 }
 
-#nav-bootstrap-overrides.nav-tabs {
+#nav-bootstrap-overrides .navbar-nav.nav-tabs {
     border-bottom-width: 0px;
 }
 
-.navbar-brand {
-    padding-left: 10px;
+.navbar-brand img {
     animation: rotation 20s infinite linear;
 }
 
@@ -29,8 +28,13 @@ a#nav-bootstrap-overrides {
     }
   }
 
-  #nav-bootstrap-overrides.container {
+  #nav-bootstrap-overrides .container {
     padding: 0;
+  }
+
+  #nav-bootstrap-overrides .navbar-brand {
+    padding: 0px 0px 0px 5px;
+    margin: 0;
   }
 
 
