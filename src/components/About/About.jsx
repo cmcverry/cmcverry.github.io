@@ -48,7 +48,7 @@ function About(props) {
                                     <h4>Non-Tech:</h4>
                                     <ul>
                                         <li>World History</li>
-                                        <li>Chinese History (Qing Dynasty {'->'} modern history)</li>
+                                        <li>Chinese History (Qing Dynasty to People's Republic)</li>
                                         <li>Environmental Sustainability</li>
                                         <li>Gardening</li>
                                         <li>Rose Cultivation</li>
