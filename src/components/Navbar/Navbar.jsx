@@ -38,7 +38,7 @@ function NavigationBar(props) {
               width="45"
               height="45"
               className="d-inline-block align-top"
-              alt="Portfolio web site logo"
+              alt="Portfolio website logo"
             />
              </Navbar.Brand>
             <Container id="nav-bootstrap-overrides">

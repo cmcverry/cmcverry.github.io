@@ -19,7 +19,7 @@ function App() {
                   src={logo}
                   width="75rem"
                   height="75rem"
-                  alt="Portfolio web site logo landing animation"
+                  alt="Portfolio website logo landing animation"
           />
         </div>
       </div>
