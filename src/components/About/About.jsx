@@ -28,7 +28,7 @@ function About(props) {
                                         <span className="highlight-text"> volunteered</span> in various public gardens, and even <span className="highlight-text">worked as a professional rose gardener</span> for about three years. In those three years, I worked as a private contractor as well as an employee at 
                                         the Elizabeth Park Conservancy where I was a steward to the oldest and the third largest public rose garden in the United States. My time working as a professional
                                         gardener further developed my <span className="highlight-text">leadership</span>, qualitative, and soft skills. But more than anything else, gardening has reinforced in me the value of <span className="highlight-text">diligence, patience, and humility</span>. 
-                                        While more recently <span className="highlight-text">software development has been my primary endeavor</span>, I do spend time gardening as a hobby.
+                                        While <span className="highlight-text"> more recently software development has been my primary endeavor</span>, I do spend time gardening as a hobby.
                                 </Card.Text>
                             </Card.Body>
                         </Card>   
@@ -47,6 +47,8 @@ function About(props) {
                                     </ul>
                                     <h4>Non-Tech:</h4>
                                     <ul>
+                                        <li>World History</li>
+                                        <li>Chinese History (Qing Dynasty {'->'} modern history)</li>
                                         <li>Environmental Sustainability</li>
                                         <li>Gardening</li>
                                         <li>Rose Cultivation</li>
