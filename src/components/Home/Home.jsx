@@ -16,7 +16,7 @@ function Home(props) {
                     <Card.Body>
                         <p>me@personal_website:~$<span id="mock-program-execution"> ./introduction</span></p>
                         <span className="typing-text-animation" style={cssVariable}> Hello, my name is Christian McVerry. 
-                            I am a recent Computer Science graduate, and aspiring professional software developer.
+                            I am a recent Computer Science graduate and aspiring professional software developer.
                             This is my personal website where I share information about myself and software projects
                             that I have worked on.
                         </span>
