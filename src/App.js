@@ -12,7 +12,7 @@ import Delay from './Delay';
 function App() {
 
   return (
-    <div>
+    <div id="body-background">
       <div className="landing-screen">
         <div id="landing-screen-image">
           <img
@@ -23,7 +23,7 @@ function App() {
           />
         </div>
       </div>
-      <Delay waitBeforeShow={2800}>
+      <Delay wait={2800}>
         <div className="App">
           <NavigationBar/>
           <Home/>

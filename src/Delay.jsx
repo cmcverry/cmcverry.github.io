@@ -1,26 +1,23 @@
-import React from 'react';
+import {useState, useEffect} from 'react';
 import PropTypes from 'prop-types';
 
-class Delay extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {hidden : true};
-    }
+function Delay(props) {
 
-    componentDidMount() {
+    const [hidden, setHidden] = useState(true);
+
+    useEffect(() => {
         setTimeout(() => {
-            this.setState({hidden: false});
-        }, this.props.waitBeforeShow);
-    }
+            setHidden(false)
+        }, props.wait);
+    })
 
-    render() {
-        return this.state.hidden ? '' : this.props.children;
-    }
+     return hidden ? '' : props.children;   
 }
 
 Delay.propTypes = {
-  waitBeforeShow: PropTypes.number.isRequired
-};
+    wait: PropTypes.number.isRequired
+  };
+
 
 export default Delay;
