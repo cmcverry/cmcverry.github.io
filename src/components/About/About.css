@@ -54,3 +54,7 @@
     color: orange;
 }
 
+#about-bootstrap-overrides .card h4 .gpa{
+    padding-top: 5px;
+    text-decoration: none;
+}
