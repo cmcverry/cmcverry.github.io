@@ -10,16 +10,25 @@ function Project(props){
     const data = props.data;
     let demo;
     let image;
+    let repo;
+
+
+    if (!data.repo){
+        repo = <span></span>
+    } 
+    else {
+        repo = <a className="demo-link" href={data.repo} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+    }
 
     if (!data.url){
        demo = <span></span>
     }
     else {
         if (data.limitedUI){
-            demo =  <a className="demo-link" href={data.url}><p>Demo (primarily backend app with limited GUI)</p></a>
+            demo =  <a className="demo-link" href={data.url} target="_blank" rel="noopener noreferrer">Demo (primarily backend app with limited GUI)</a>
         }
         else{
-            demo =  <a className="demo-link" href={data.url}><p>Demo</p></a>
+            demo =  <a className="demo-link" href={data.url} target="_blank" rel="noopener noreferrer">Demo</a>
         }
     }
 
@@ -32,7 +41,7 @@ function Project(props){
 
     return (
             <Card id="project-bootstrap-overrides" >
-                <Card.Header><h2>{data.projectName}</h2>{demo}</Card.Header>
+                <Card.Header><h2>{data.projectName}</h2>{repo}<br/>{demo}</Card.Header>
                 <Card.Body>
                         <h5>({data.stack})</h5>
                         <br/>

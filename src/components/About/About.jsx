@@ -54,7 +54,6 @@ function About(props) {
                                         <li>Web Development</li>
                                         <li>Cloud Computing</li>
                                         <li>Parallel Programming</li>
-                                        <li>Graphics and Video Games</li>
                                     </ul>
                                     <h4>Non-Tech:</h4>
                                     <ul>
@@ -103,12 +102,12 @@ function About(props) {
                             <Card.Body>
                                     <p style={{color: 'orange', fontStyle: 'italic'}} >Note: this list contains what I have the most exposure to and use frequently. Not necessarily 
                                     full technical mastery</p>
-                                    <h5>Programming Languages:</h5>
-                                    <p>Python, C, C++, SQL, JavaScript, HTML, CSS</p>
+                                    <h5>Languages:</h5>
+                                    <p>Python, C, SQL, JavaScript, HTML, CSS</p>
                                     <h5>Libraries / Frameworks / APIs:</h5>
                                     <p>ReactJS, NodeJS, ExpressJS, React Native, Flask, OpenMP, OpenCL</p>
                                     <h5>Environments / Tools / Platforms:</h5>
-                                    <p>Linux/Unix, Git, Google Cloud Platform, Firebase, Microsoft Azure, Figma, Asana, Visual Studio, VS Code, CLion</p>
+                                    <p>Linux/Unix, Git, Google Cloud Platform, Firebase, Microsoft Azure, Figma, Asana</p>
                                     <h5>Conceptual:</h5>
                                     <p>Object-Oriented Programming, Parallel Programming, REST API, Microservice Architecture, Agile Concepts & Practices</p>
                             </Card.Body>
